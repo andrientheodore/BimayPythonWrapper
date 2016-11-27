@@ -1,7 +1,7 @@
 try:
 	import requests
 	from bs4 import BeautifulSoup
-	import datetime
+
 except ImportError as e:
 	print "There's import error for {} dependency".format(e)
 
@@ -10,7 +10,7 @@ HEADER = {"Referer": "https://binusmaya.binus.ac.id/login/", "Origin": "https://
 BASE_URL = "https://binusmaya.binus.ac.id/services/ci/index.php/"
 session_ = requests.session()
 
-class bimay:
+class bimay():
 	
 	# Method Description: Sign In Method
 	# Parameter:
