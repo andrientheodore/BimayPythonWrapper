@@ -1,0 +1,12 @@
+1. Install Dependencies
+pip install -r requirements.txt
+
+2. Usage:
+	- binusmaya = bimay()
+	- # Login
+	  binusmaya.sign_in('USERNAME', 'PASSWORD')
+	 (*) All cookies are handled automaticly thanks to 'requests' library :)
+	  # Get User Profile
+	  binusmaya.get_profile()
+	  # Get Schedule
+	  binusmaya.get_schedule()
